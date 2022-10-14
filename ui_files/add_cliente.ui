@@ -313,7 +313,7 @@ QTextEdit{
      <string>Cancelar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="salvar_cliente">
     <property name="geometry">
      <rect>
       <x>620</x>
