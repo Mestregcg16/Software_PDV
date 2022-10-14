@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SOFTWARE_JC_VIDROS</class>
+ <widget class="QMainWindow" name="SOFTWARE_JC_VIDROS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>923</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+}
+</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="btn_cliente">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Main_Icons/Clientes.png</normaloff>../Main_Icons/Clientes.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_fornecedor">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/Fornecedor.png</normaloff>:/Icons/Fornecedor.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>84</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_usuarios">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/usuario.png</normaloff>:/Icons/usuario.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_produtos">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/Produtos.png</normaloff>:/Icons/Produtos.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_menu_os">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/Menu_os.png.png</normaloff>:/Icons/Menu_os.png.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_caixa">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/Caixa.png</normaloff>:/Icons/Caixa.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_relatorio">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="icon">
+        <iconset resource="../Main_Icons/images.qrc">
+         <normaloff>:/Icons/Relatorio.png</normaloff>:/Icons/Relatorio.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>64</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+    <zorder>btn_fornecedor</zorder>
+    <zorder>btn_usuarios</zorder>
+    <zorder>btn_produtos</zorder>
+    <zorder>btn_menu_os</zorder>
+    <zorder>btn_caixa</zorder>
+    <zorder>btn_relatorio</zorder>
+    <zorder>btn_cliente</zorder>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1920</width>
+        <height>1080</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/Images/background.jpeg);
+background-repeat: no-repeat;
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>40</y>
+        <width>421</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <property name="spacing">
+        <number>12</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="novo_cliente_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Btn_Icons/buttons.qrc">
+           <normaloff>:/Buttons/add_cliente.png</normaloff>:/Buttons/add_cliente.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_15">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Btn_Icons/buttons.qrc">
+           <normaloff>:/Buttons/editar.png</normaloff>:/Buttons/editar.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_22">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Btn_Icons/buttons.qrc">
+           <normaloff>:/Buttons/apagar.png</normaloff>:/Buttons/apagar.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_23">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Free Icons/14269300821582779200-128.png</normaloff>Free Icons/14269300821582779200-128.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_24">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Btn_Icons/buttons.qrc">
+           <normaloff>:/Buttons/atualizar.png</normaloff>:/Buttons/atualizar.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>100</y>
+        <width>1001</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QHeaderView::section{
+	background-color: rgb(255, 246, 217);
+}
+QTableWidget{
+background:rgb(194, 194, 194);
+border:1px solid;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="tabKeyNavigation">
+       <bool>false</bool>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>135</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>23</number>
+      </attribute>
+      <attribute name="verticalHeaderHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>New Row</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Codigo</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nome do Cliente</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tel(1)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tel(2)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Descriçao</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bairro</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Cidade</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Endereço</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Data_Cadastro</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>Diego</string>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+      </item>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>582</x>
+        <y>20</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Tipo de Filtro&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>762</x>
+        <y>50</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_14">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Btn_Icons/buttons.qrc">
+           <normaloff>:/Buttons/buscar.png</normaloff>:/Buttons/buscar.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>29</width>
+           <height>16</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>149</x>
+        <y>10</y>
+        <width>1021</width>
+        <height>1000</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1920</width>
+        <height>1080</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/Images/background.jpeg);
+background-repeat: no-repeat;
+</string>
+      </property>
+     </widget>
+     <zorder>widget_2</zorder>
+     <zorder>widget</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>tableWidget</zorder>
+     <zorder>layoutWidget_4</zorder>
+     <zorder>layoutWidget_2</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../Main_Icons/images.qrc"/>
+  <include location="../Btn_Icons/buttons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
