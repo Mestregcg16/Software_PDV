@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -171,8 +174,8 @@ QSpinBox{
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../Btn_Icons/buttons.qrc">
-         <normaloff>:/Buttons/add_cliente.png</normaloff>:/Buttons/add_cliente.png</iconset>
+        <iconset>
+         <normaloff>../btn_icons/add_cliente.png</normaloff>../btn_icons/add_cliente.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -194,8 +197,8 @@ QSpinBox{
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../Btn_Icons/buttons.qrc">
-         <normaloff>:/Buttons/editar.png</normaloff>:/Buttons/editar.png</iconset>
+        <iconset>
+         <normaloff>../btn_icons/editar.png</normaloff>../btn_icons/editar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -217,8 +220,8 @@ QSpinBox{
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../Btn_Icons/buttons.qrc">
-         <normaloff>:/Buttons/apagar.png</normaloff>:/Buttons/apagar.png</iconset>
+        <iconset>
+         <normaloff>../btn_icons/apagar.png</normaloff>../btn_icons/apagar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -241,7 +244,7 @@ QSpinBox{
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>Free Icons/14269300821582779200-128.png</normaloff>Free Icons/14269300821582779200-128.png</iconset>
+         <normaloff>../btn_icons/Limpar.png</normaloff>../btn_icons/Limpar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -263,8 +266,8 @@ QSpinBox{
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../Btn_Icons/buttons.qrc">
-         <normaloff>:/Buttons/atualizar.png</normaloff>:/Buttons/atualizar.png</iconset>
+        <iconset>
+         <normaloff>../btn_icons/atualizar.png</normaloff>../btn_icons/atualizar.png</iconset>
        </property>
        <property name="iconSize">
         <size>

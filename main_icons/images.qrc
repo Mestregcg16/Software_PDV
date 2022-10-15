@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>agenda.png</file>
+    <file>Caixa.png</file>
+    <file>Clientes.png</file>
+    <file>Fornecedor.png</file>
+    <file>Menu_os.png.png</file>
+    <file>Produtos.png</file>
+    <file>Relatorio.png</file>
+    <file>usuario.png</file>
+  </qresource>
+  <qresource prefix="Images">
+    <file>background.jpeg</file>
+  </qresource>
+</RCC>

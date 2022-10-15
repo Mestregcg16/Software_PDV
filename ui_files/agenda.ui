@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>Tela_Cadastro_de_Clientes</class>
  <widget class="QMainWindow" name="Tela_Cadastro_de_Clientes">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -132,6 +135,11 @@ background-color: rgb(255, 255, 255);</string>
     </row>
     <column>
      <property name="text">
+      <string>Codigo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
       <string>Agendado</string>
      </property>
     </column>
@@ -170,7 +178,7 @@ background-color: rgb(255, 255, 255);</string>
       <string>Data_Cadastro</string>
      </property>
     </column>
-    <item row="0" column="0">
+    <item row="0" column="1">
      <property name="text">
       <string/>
      </property>
@@ -211,7 +219,7 @@ background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>:/Buttons/add_cliente.png</normaloff>:/Buttons/add_cliente.png</iconset>
+         <normaloff>../btn_icons/add_cliente.png</normaloff>../btn_icons/add_cliente.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -234,7 +242,7 @@ background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>:/Buttons/editar.png</normaloff>:/Buttons/editar.png</iconset>
+         <normaloff>../btn_icons/editar.png</normaloff>../btn_icons/editar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -257,7 +265,7 @@ background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>:/Buttons/apagar.png</normaloff>:/Buttons/apagar.png</iconset>
+         <normaloff>../btn_icons/apagar.png</normaloff>../btn_icons/apagar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -280,7 +288,7 @@ background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../Downloads/Free Icons/14269300821582779200-128.png</normaloff>../Downloads/Free Icons/14269300821582779200-128.png</iconset>
+         <normaloff>../btn_icons/Limpar.png</normaloff>../btn_icons/Limpar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -303,7 +311,7 @@ background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>:/Buttons/atualizar.png</normaloff>:/Buttons/atualizar.png</iconset>
+         <normaloff>../btn_icons/atualizar.png</normaloff>../btn_icons/atualizar.png</iconset>
        </property>
        <property name="iconSize">
         <size>
