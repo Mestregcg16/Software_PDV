@@ -145,6 +145,11 @@ background-color: rgb(255, 255, 255);</string>
     </column>
     <column>
      <property name="text">
+      <string>Descriçao</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
       <string>Tel(1)</string>
      </property>
     </column>
@@ -155,7 +160,7 @@ background-color: rgb(255, 255, 255);</string>
     </column>
     <column>
      <property name="text">
-      <string>Descriçao</string>
+      <string>Endereço</string>
      </property>
     </column>
     <column>
@@ -165,12 +170,22 @@ background-color: rgb(255, 255, 255);</string>
     </column>
     <column>
      <property name="text">
+      <string>Complemento</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cep</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
       <string>Cidade</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Endereço</string>
+      <string>Email</string>
      </property>
     </column>
     <column>
@@ -266,29 +281,6 @@ background-color: rgb(255, 255, 255);</string>
        <property name="icon">
         <iconset>
          <normaloff>../btn_icons/apagar.png</normaloff>../btn_icons/apagar.png</iconset>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_11">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
-         <normaloff>../btn_icons/Limpar.png</normaloff>../btn_icons/Limpar.png</iconset>
        </property>
        <property name="iconSize">
         <size>

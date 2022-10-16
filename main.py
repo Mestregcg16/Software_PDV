@@ -1,17 +1,13 @@
-from PyQt5 import QtWidgets 
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
 from PyQt5 import uic
+from PyQt5.QtWidgets import *
 import sys
+import functions as f
 import main_icons.images as images
-import btn_icons as buttons
-from os import *
 
 
 class Main(QMainWindow):
     def __init__(self):
         super(Main,self).__init__()
-        #tela Principal 
         uic.loadUi("ui_files\main.ui", self)
         self.show()
 
@@ -28,16 +24,16 @@ class Main(QMainWindow):
         #Conexão
         btn_cliente.clicked.connect(lambda: cliente.show())                                                      #Abrir Painel Cliente
         novo_cliente.clicked.connect(lambda: add_cliente.show())                                                 #Abrir Tela Adicionar Cliente
-        excluir_cliente.clicked.connect(lambda: self.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DO CLIENTE")) #Excluir Cliente
-        #add_cliente.salvar_cliente.clicked.connect(self.teste)                                                  #Adicionar Cliente
+        excluir_cliente.clicked.connect(lambda: f.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DO CLIENTE")) #Excluir Cliente
+        add_cliente.salvar_cliente.clicked.connect(f.cadastro_cliente)                                                  #Adicionar Cliente
         
         
         
         ############################### FORNECEDORES ###############################
         #Botões
-        btn_fornecedor = self.findChild(QPushButton, "btn_fornecedor")
+        #btn_fornecedor = self.findChild(QPushButton, "btn_fornecedor")
         #Conexão
-        btn_fornecedor.clicked.connect(lambda: cliente.show())                                                   #Abrir Painel Fornecedores
+        #btn_fornecedor.clicked.connect(lambda: cliente.show())                                                   #Abrir Painel Fornecedores
 
 
         
@@ -52,12 +48,11 @@ class Main(QMainWindow):
         novo_usuario = usuario.findChild(QPushButton, "novo_usuario")
         editar_usuario = usuario.findChild(QPushButton, "editar_usuario")
         excluir_usuario = usuario.findChild(QPushButton, "excluir_usuario")
-        limpar_usuario = usuario.findChild(QPushButton, "limpar_usuario")
         att_usuario = usuario.findChild(QPushButton, "att_usuario")
         #Conexões
         btn_usuario.clicked.connect(lambda: usuario.show())
         usuario.novo_usuario.clicked.connect(lambda: add_usuario.show())
-        usuario.excluir_usuario.clicked.connect(lambda: self.show_QIpuntDialog("EXCLUIR", "DIGITE O NOME DO USUARIO"))
+        usuario.excluir_usuario.clicked.connect(lambda: f.show_QIpuntDialog("EXCLUIR", "DIGITE O NOME DO USUARIO"))
 
         
 
@@ -77,7 +72,7 @@ class Main(QMainWindow):
         #Conexão
         btn_produtos.clicked.connect(lambda: produtos.show())                                                       #Abrir Painel Produtos
         btn_novo_produto.clicked.connect(lambda: novo_produto.show())                                                   #Abrir Painel Adicionar Produtos
-        excluir_produto.clicked.connect(lambda: self.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DO PRODUTO"))    #Excluir Produto
+        excluir_produto.clicked.connect(lambda: f.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DO PRODUTO"))    #Excluir Produto
 
        
         
@@ -96,18 +91,21 @@ class Main(QMainWindow):
         #Conexão
         btn_menu_os.clicked.connect(lambda: menu_os.show())                                                     #Abrir Painel OS
         btn_add_os.clicked.connect(lambda: add_os.show())                                                       #Abrir Painel Criar OS
-        btn_finalizar_os.clicked.connect(lambda: self.show_QIpuntDialog("FINALIZAR", "DIGITE O CODIGO DA OS"))  #Finalizar OS
-        btn_excluir_os.clicked.connect(lambda: self.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DA OS"))      #Excluir OS
-        btn_imprimir_os.clicked.connect(lambda: self.show_QIpuntDialog("IMRPIMIR", "DIGITE O CODIGO DA OS"))    #Imprimir OS
+        btn_finalizar_os.clicked.connect(lambda: f.show_QIpuntDialog("FINALIZAR", "DIGITE O CODIGO DA OS"))  #Finalizar OS
+        btn_excluir_os.clicked.connect(lambda: f.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DA OS"))      #Excluir OS
+        btn_imprimir_os.clicked.connect(lambda: f.show_QIpuntDialog("IMRPIMIR", "DIGITE O CODIGO DA OS"))    #Imprimir OS
         btn_incluir_produto.clicked.connect(lambda: incluir_produto.show())
         
         ############################### CAIXA ###############################
         #Telas
         caixa = uic.loadUi("ui_files\caixa.ui")
+        add_caixa = uic.loadUi("ui_files/add_caixa.ui")
         #Botões
         btn_caixa = self.findChild(QPushButton, "btn_caixa")
+        btn_add_caixa = caixa.findChild(QPushButton, "incluir_caixa")
         #Conexão
         btn_caixa.clicked.connect(lambda: caixa.show()) #AbrirCaixa
+        btn_add_caixa.clicked.connect(lambda: add_caixa.show())# Abrir Tela add_Caixa
 
 
         ############################### AGENDA ###############################
@@ -121,7 +119,7 @@ class Main(QMainWindow):
         #Conexão
         btn_agenda.clicked.connect(lambda: agenda.show())
         novo_horario.clicked.connect(lambda: add_agenda.show())
-        excluir_horario.clicked.connect(lambda: self.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DA AGENDA"))
+        excluir_horario.clicked.connect(lambda: f.show_QIpuntDialog("EXCLUIR", "DIGITE O CODIGO DA AGENDA"))
 
 
 
@@ -135,30 +133,11 @@ class Main(QMainWindow):
     
     
     
-    def show_QIpuntDialog(self,title,text):
-        dlg =  QInputDialog(self)                 
-        dlg.setInputMode( QInputDialog.TextInput) 
-        dlg.setLabelText(text) 
-        dlg.setWindowTitle(title)                   
-        dlg.resize(300,300)                             
-        dlg.setFont(QFont('Arial', 10))
-        
-        ok = dlg.exec_()
-        if ok:                                
-            text = dlg.textValue()
-            return text
-        else:
-            return None
+    
 
        
 
-    def show_messagebox(self, title, text):
-        msg = QMessageBox()
-        msg.setIcon(QMessageBox.Question)
-        msg.setWindowTitle(title)
-        msg.setText(str(text))
-        msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        exec = msg.exec_()
+    
 
     
 app = QApplication(sys.argv)

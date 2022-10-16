@@ -154,7 +154,7 @@ QTextEdit{
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Bairro&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
+   <widget class="QLabel" name="c_cliente">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -180,7 +180,7 @@ QTextEdit{
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;CEP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="nome">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -189,8 +189,19 @@ QTextEdit{
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="end">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -200,7 +211,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="brr">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -210,7 +221,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="cdd">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -220,7 +231,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="tel1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -230,7 +241,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_6">
+   <widget class="QLineEdit" name="tel2">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -240,7 +251,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_7">
+   <widget class="QLineEdit" name="tel3">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -250,7 +261,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_8">
+   <widget class="QLineEdit" name="cep">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -260,7 +271,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_9">
+   <widget class="QLineEdit" name="cmpl">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -270,7 +281,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_10">
+   <widget class="QLineEdit" name="email">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -280,7 +291,7 @@ QTextEdit{
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="desc">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -300,7 +311,7 @@ QTextEdit{
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Observações&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Descrição&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">

@@ -3,14 +3,14 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="windowModality">
-   <enum>Qt::ApplicationModal</enum>
+   <enum>Qt::WindowModal</enum>
   </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>897</width>
-    <height>681</height>
+    <width>1013</width>
+    <height>768</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,7 +48,15 @@ QTabWidget{
 }
 QDateEdit{
 	background-color: rgb(255, 255, 255);
-}</string>
+}
+QSpinBox{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox{
+	background-color: rgb(255, 255, 255);
+	border:0
+}
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -56,8 +64,8 @@ QDateEdit{
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>861</width>
-      <height>631</height>
+      <width>991</width>
+      <height>711</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -90,7 +98,7 @@ QDateEdit{
      <widget class="QPushButton" name="recibo_caixa_2">
       <property name="geometry">
        <rect>
-        <x>650</x>
+        <x>900</x>
         <y>30</y>
         <width>71</width>
         <height>41</height>
@@ -170,8 +178,8 @@ QDateEdit{
        <rect>
         <x>20</x>
         <y>80</y>
-        <width>661</width>
-        <height>441</height>
+        <width>951</width>
+        <height>461</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -289,8 +297,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLineEdit" name="lineEdit_3">
       <property name="geometry">
        <rect>
-        <x>730</x>
-        <y>570</y>
+        <x>840</x>
+        <y>630</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -299,8 +307,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>550</y>
+        <x>700</x>
+        <y>610</y>
         <width>91</width>
         <height>16</height>
        </rect>
@@ -312,8 +320,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>730</x>
-        <y>550</y>
+        <x>840</x>
+        <y>610</y>
         <width>91</width>
         <height>16</height>
        </rect>
@@ -326,7 +334,7 @@ background-color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>560</y>
+        <y>630</y>
         <width>551</width>
         <height>42</height>
        </rect>
@@ -452,8 +460,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLineEdit" name="lineEdit_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>570</y>
+        <x>700</x>
+        <y>630</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -608,8 +616,8 @@ background-color: rgb(255, 255, 255);</string>
        <rect>
         <x>0</x>
         <y>150</y>
-        <width>661</width>
-        <height>441</height>
+        <width>941</width>
+        <height>491</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -654,7 +662,7 @@ background-color: rgb(255, 255, 255);</string>
        <bool>false</bool>
       </attribute>
       <attribute name="horizontalHeaderDefaultSectionSize">
-       <number>160</number>
+       <number>241</number>
       </attribute>
       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
        <bool>false</bool>
@@ -717,7 +725,7 @@ background-color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>897</width>
+     <width>1013</width>
      <height>21</height>
     </rect>
    </property>

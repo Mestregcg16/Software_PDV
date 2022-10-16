@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>911</width>
+    <height>808</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -86,7 +86,7 @@ QComboBox{
      <rect>
       <x>150</x>
       <y>40</y>
-      <width>261</width>
+      <width>361</width>
       <height>31</height>
      </rect>
     </property>
@@ -110,8 +110,8 @@ QComboBox{
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>329</y>
+      <x>740</x>
+      <y>560</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -120,18 +120,18 @@ QComboBox{
    <widget class="QDoubleSpinBox" name="doubleSpinBox">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>360</y>
-      <width>81</width>
-      <height>31</height>
+      <x>610</x>
+      <y>590</y>
+      <width>61</width>
+      <height>41</height>
      </rect>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_5">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>410</y>
+      <x>740</x>
+      <y>641</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -142,29 +142,29 @@ QComboBox{
      <rect>
       <x>20</x>
       <y>110</y>
-      <width>251</width>
-      <height>91</height>
+      <width>411</width>
+      <height>131</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>330</y>
-      <width>91</width>
+      <x>680</x>
+      <y>561</y>
+      <width>61</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALOR CUSTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALOR &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>370</y>
+      <x>490</x>
+      <y>600</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -176,8 +176,8 @@ QComboBox{
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>420</y>
+      <x>680</x>
+      <y>651</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -190,7 +190,7 @@ QComboBox{
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>310</y>
+      <y>440</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -203,7 +203,7 @@ QComboBox{
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>300</y>
+      <y>430</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -213,7 +213,7 @@ QComboBox{
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>350</y>
+      <y>480</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -226,7 +226,7 @@ QComboBox{
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>340</y>
+      <y>470</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -235,8 +235,8 @@ QComboBox{
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>80</y>
+      <x>640</x>
+      <y>10</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -248,8 +248,8 @@ QComboBox{
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>110</y>
+      <x>640</x>
+      <y>40</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -261,8 +261,8 @@ QComboBox{
    <widget class="QLineEdit" name="lineEdit_6">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>370</y>
+      <x>740</x>
+      <y>601</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -271,8 +271,8 @@ QComboBox{
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>370</y>
+      <x>680</x>
+      <y>601</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -284,8 +284,8 @@ QComboBox{
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>300</y>
+      <x>730</x>
+      <y>90</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -294,21 +294,11 @@ QComboBox{
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ESTOQUE ATUAL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBox">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>291</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>390</y>
+      <x>260</x>
+      <y>470</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -320,8 +310,8 @@ QComboBox{
    <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>380</y>
+      <x>350</x>
+      <y>460</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -330,8 +320,8 @@ QComboBox{
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>480</y>
+      <x>590</x>
+      <y>710</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -343,8 +333,8 @@ QComboBox{
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>480</y>
+      <x>760</x>
+      <y>710</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -353,13 +343,101 @@ QComboBox{
      <string>Salvar</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>120</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>390</y>
+      <width>31</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Metro/2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>360</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;KG/ Barra&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>420</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;KG&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>415</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>290</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;CALCULOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>911</width>
      <height>21</height>
     </rect>
    </property>

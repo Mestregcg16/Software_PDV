@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1087</width>
-    <height>823</height>
+    <width>1192</width>
+    <height>843</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -143,8 +143,8 @@ QSpinBox{
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>40</y>
+      <x>740</x>
+      <y>50</y>
       <width>421</width>
       <height>42</height>
      </rect>
@@ -232,29 +232,6 @@ QSpinBox{
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_11">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
-         <normaloff>../btn_icons/Limpar.png</normaloff>../btn_icons/Limpar.png</iconset>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item>
       <widget class="QPushButton" name="pushButton_12">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
@@ -305,10 +282,10 @@ QSpinBox{
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>40</x>
       <y>110</y>
-      <width>971</width>
-      <height>661</height>
+      <width>1131</width>
+      <height>691</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -353,7 +330,7 @@ background-color: rgb(255, 255, 255);</string>
      <bool>false</bool>
     </attribute>
     <attribute name="horizontalHeaderDefaultSectionSize">
-     <number>135</number>
+     <number>195</number>
     </attribute>
     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
      <bool>false</bool>
@@ -434,7 +411,7 @@ background-color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1087</width>
+     <width>1192</width>
      <height>21</height>
     </rect>
    </property>
